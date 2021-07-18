@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556824375637",
+    "project_id": "erment-project",
+    "storage_bucket": "erment-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556824375637:android:0b9c708950b0b6007b7fdc",
+        "android_client_info": {
+          "package_name": "me.itsmenow.erment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556824375637-h7hijcu33d8d27jr0rf5ka0aa42p907m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5DD9D7-MqOqbZktcQW2gSZNFxBbVTTGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556824375637-h7hijcu33d8d27jr0rf5ka0aa42p907m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

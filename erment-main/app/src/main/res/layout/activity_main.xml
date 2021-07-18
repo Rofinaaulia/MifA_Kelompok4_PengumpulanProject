@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:background="@color/brown_1"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/menu_title"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:orientation="horizontal"
+        android:layout_marginVertical="12dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="6dp"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toTopOf="@+id/menu_signout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_profile"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/background_menu"
+            app:backgroundTint="@null"
+            app:icon="@drawable/icon_profil"
+            app:iconTint="@color/black"
+            app:iconGravity="textTop"
+            android:fontFamily="serif-monospace"
+            android:text="@string/menu_profile"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_about"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/background_menu"
+            app:backgroundTint="@null"
+            app:icon="@drawable/icon_tentang"
+            app:iconTint="@color/black"
+            app:iconGravity="textTop"
+            android:fontFamily="serif-monospace"
+            android:text="@string/menu_about"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_transaction"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/background_menu"
+            app:backgroundTint="@null"
+            app:icon="@drawable/icon_transaksi"
+            app:iconTint="@color/black"
+            app:iconGravity="textTop"
+            android:fontFamily="serif-monospace"
+            android:text="@string/menu_transaction"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_history"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/background_menu"
+            app:backgroundTint="@null"
+            app:icon="@drawable/icon_riwayat"
+            app:iconTint="@color/black"
+            app:iconGravity="textTop"
+            android:fontFamily="serif-monospace"
+            android:text="@string/menu_history"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="22sp" />
+    </GridLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menu_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/background_menu"
+        android:fontFamily="serif-monospace"
+        android:text="@string/sign_out_button"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Erment</string>
+
+    <!--String-->
+    <string name="signup_text">Don\'t have an account? Sign up</string>
+    <string name="login_remember">Ingat saya</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_user">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="menu_title">Welcome Customer!</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_transaction">Transaksi</string>
+    <string name="menu_history">Riwayat</string>
+    <string name="buy_button">Bayar Sekarang</string>
+    <string name="buy_item_button">Beli</string>
+    <string name="product_photo_description">Foto Produk</string>
+    <string name="hint_buy_quantity">Jumlah Beli</string>
+    <string name="hint_buy_price">Harga</string>
+    <string name="hint_buy_total">Total Harga</string>
+    <string name="pay_title">Bayar</string>
+    <string name="pay_button">Bayar</string>
+    <string name="hint_buyer_name">Nama Pembeli</string>
+    <string name="hint_buyer_address">Alamat</string>
+    <string name="hint_buyer_number">Nomor HP</string>
+    <string name="hint_buyer_product">Pembelian</string>
+    <string name="hint_buyer_total">Total Harga</string>
+    <string name="about_photo_description">Foto Produk Kerupuk</string>
+    <string name="logo_description">Logo Erment</string>
+    <string name="sign_out_button">Sign Out</string>
+    <string name="remove_item_button">Hapus</string>
+
+    <!--Product Name-->
+    <string name="product_1">Kerupuk Puli Kuning</string>
+    <string name="product_2">Kerupuk Puli Sayur</string>
+    <string name="product_3">Kerupuk Puli Ketumbar</string>
+
+    <!--User Data-->
+    <string name="user_name_1">Nih Latulia R.T.</string>
+    <string name="user_name_2">Elysha Fitriana D.</string>
+    <string name="user_name_3">Nurul Fatimah</string>
+    <string name="user_name_4">Risma Raudlatul Aulia</string>
+    <string name="user_name_5">Rofina Aulia Noviati</string>
+
+
+    <string name="user_image_description_1">Foto Nih Latulia R.T.</string>
+    <string name="user_image_description_2">Foto Elysha Fitriana D.</string>
+    <string name="user_image_description_3">Foto Nurul Fatimah</string>
+    <string name="user_image_description_4">Foto Risma Raudlatul Aulia</string>
+    <string name="user_image_description_5">Foto Rofina Aulia Noviati</string>
+
+    <string name="user_number_1">084231539102</string>
+    <string name="user_number_2">087844316249</string>
+    <string name="user_number_3">089612827400</string>
+    <string name="user_number_4">082335944558</string>
+    <string name="user_number_5">082249422678</string>
+
+    <string name="user_email_1">rahmahtiyas@gmail.com</string>
+    <string name="user_email_2">elyshafitrianadewi@gmail.com</string>
+    <string name="user_email_3">nurul.sid19@gmail.com</string>
+    <string name="user_email_4">rismaaulia7800@gmail.com</string>
+    <string name="user_email_5">rofinaaulia11@gmail.com</string>
+
+    <!--About-->
+    <string name="about_1">Kerupuk yang di produksi oleh Indah Makmur ada beberapa macam, salah satunya adalah kerupuk puli. Kerupuk puli disini dibagi menjadi 3 macam yaitu kerupuk puli kuning, kerupuk puli ketumbar. Jika ditinjau dari pembuatannya produksi kerupuk di desa Kedung Rejo ini terkesan cukup praktis, pengrajin cukup mencampur bahan adonan yang kemudian dipanggang dalam oven lalu diiris iris setelah itu dijemur.</string>
+    <string name="about_2">Akan tetapi, banyak pengrajin kesulitan pada tahap penjemuran ketika musim hujan datang, karena proses penjemuran yang dilakukan masih menggunakan sinar matahari sedangkan untuk membeli mesin pengering, Pengrajin masih mengaju keberatan dengan harga yang cukup mahal.</string>
+    <string name="title_desc">Aplikasi Supplier Management Kerupuk Puli</string>
+
+    <!--URL-->
+    <string name="url_login">https://api.erment.my.id/login.php</string>
+    <string name="url_register">https://api.erment.my.id/register.php</string>
+    <string name="url_token">https://api.erment.my.id/token.php</string>
+    <string name="url_order">https://api.erment.my.id/order.php</string>
+    <string name="url_remove_order">https://api.erment.my.id/remove_order.php</string>
+    <string name="url_order_list">https://api.erment.my.id/order_list.php</string>
+
+</resources>
